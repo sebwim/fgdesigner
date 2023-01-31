@@ -10,22 +10,22 @@
   height: 100px;
 }
 .layer1 {
-  background-image: url("image1.png");
+  background-image: url("/files/layer1.png");
   z-index: 1;
 }
 .layer2 {
-  background-image: url("image2.png");
+  background-image: url("/files/layer2.png");
   z-index: 2;
 }
 .layer3 {
-  background-image: url("image3.png");
+  background-image: url("/files/layer3.png");
   z-index: 3;
 }
 .layer4 {
-  background-image: url("image4.png");
+  background-image: url("/files/layer4.png");
   z-index: 4;
 }
 .layer5 {
-  background-image: url("image5.png");
+  background-image: url("/files/layer5.png");
   z-index: 5;
 }
