@@ -10,5 +10,5 @@ form.addEventListener("change", function(event) {
   const pattern = form.elements["pattern-select"].value;
 
   // Update default character
-  character.style.backgroundImage = `url('./character-${top}-${bottom}-${faceplate}-${color}-${pattern}.png')`;
+  character.src = `./character-${top}-${bottom}-${faceplate}-${color}-${pattern}.png`;
 });
